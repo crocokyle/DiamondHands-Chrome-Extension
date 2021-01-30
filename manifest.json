@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+  
+    "name": "DiamondHands",
+    "description": "This extension keeps those bearish tempations at bay by diabling access to the sell button on select brokerage sites.",
+    "version": "1.0",
+    
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["content.js"],
+        "matches": ["https://robinhood.com/*","https://app.webull.com/*"]
+      }],
+
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+     
+  }
