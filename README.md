@@ -1,8 +1,9 @@
 # DiamondHands-Chrome-Extension
+ This extension keeps those bearish tempations at bay by diabling access to the sell button on select brokerage sites.
+
 
 <div style="text-align:center"><img src="screenshot.jpg" /></div>
 
- This extension keeps those bearish tempations at bay by diabling access to the sell button on select brokerage sites.
 
 <hr />
 
